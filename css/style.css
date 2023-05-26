@@ -1,0 +1,63 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin: 5px;
+    font-size: 1.2rem;
+  }
+
+  button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+  #e {
+    background-color: #28a745;
+  }
+
+  #B {
+    background-color: #ffc107;
+  }
+
+  #G {
+    background-color: #dc3545;
+  }
+
+  #D {
+    background-color: #17a2b8;
+  }
+
+  #A {
+    background-color: #6c757d;
+  }
+
+  #E {
+    background-color: #6610f2;
+  }
+
+  .violao {
+    display: block;
+    margin: auto;
+    max-width: 40%;
+  }
+
+  div p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin-top: 20px;
+    text-shadow: 1px 1px #FFF;
+  }
